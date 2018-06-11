@@ -1,0 +1,77 @@
+/*----- Genral Classes start ------*/
+.footer{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 100%;
+	margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 74%;
+	height:48.6%;
+	
+    top:52.3%;
+    left: 26.5%;
+	overflow: scroll;	
+}
+
+.footer::-webkit-scrollbar
+{
+ width: 5px;
+  height: 8px;
+}
+
+.wrapper,.copyright {
+	padding: 20px;
+	text-align: center;
+
+}
+hr{
+	margin: 30px 20px;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+/*Change circle size and color here*/
+.img{
+	width: 9%;
+	height: 14.5%;
+	line-height: 11px;
+	text-align: center;
+	color: #DD6D05;
+	padding: 1.2%;
+	margin: 0.4%;
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+    border-radius: 20%;
+	border:solid;
+	box-shadow: 0 5px 30px rgba(0,0,0,0.4);
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 20%;
+}
+
+
+.img:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+.img:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+
+ 
